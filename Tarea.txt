@@ -1,0 +1,12 @@
+	#include <iostream>
+
+int main()
+//V2 Area de un cuadrado
+{
+	float lado, area;
+	printf("Lado :");
+	scanf_s("%f",&lado);
+	area = lado *lado;
+	printf("Area: %2.0f",area);
+}
+s
