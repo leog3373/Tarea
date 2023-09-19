@@ -1,0 +1,14 @@
+	#include <stdio.h>
+int main()
+{
+	int largo, ancho, x1, x2, y1, y2;
+	float x, y, ancho2,largo2;
+	scanf_s("%i %i %f %f %f %f",&ancho,&largo,&x,&y,&ancho2,&largo2);
+	x1 = ancho*x;
+	y1 = largo*y;
+	x2 = (ancho*ancho2)+x1;
+	y2 = (largo*largo2)+y1;
+	printf("%i %i %5.2f %5.2f %5.2f %5.2f %i %i %i %i",ancho,largo,x,y,ancho2,largo2,x1,y1,x2,y2);
+}
+
+
