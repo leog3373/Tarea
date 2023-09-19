@@ -1,12 +1,11 @@
-	#include <iostream>
-
+#include <iostream>
 int main()
-//V2 Area de un cuadrado
+//V Ar3ea de un circulo
 {
-	float lado, area;
-	printf("Lado :");
-	scanf_s("%f",&lado);
-	area = lado *lado;
-	printf("Area: %2.0f",area);
+	float radio, area,pi;
+	printf("radio :");
+	scanf_s("%f",&radio);
+	pi = 3.1416;
+	area = pi*(radio*radio);
+	printf("Area: %5.0f",area);
 }
-s
